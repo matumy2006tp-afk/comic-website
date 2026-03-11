@@ -1,0 +1,152 @@
+/* RESET */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5edff;
+}
+
+
+/* HEADER */
+
+header {
+    background: #d8b4fe;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+}
+
+
+/* MENU */
+
+nav {
+    background: #c084fc;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* LAYOUT */
+
+.main {
+    display: flex;
+    min-height: 500px;
+}
+
+
+/* SIDEBAR */
+
+.sidebar {
+    width: 25%;
+    background: #ede9fe;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 8px 0;
+}
+
+
+/* CONTENT */
+
+.content {
+    width: 75%;
+    padding: 20px;
+}
+
+
+/* CARD TRUYỆN */
+
+.comic-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.comic-card {
+    width: 180px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+}
+
+.comic-card:hover {
+    transform: scale(1.05);
+}
+
+
+/* LINK TRUYỆN */
+
+.comic-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.comic-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+/* NÚT ĐỌC TRUYỆN */
+
+.read-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #a855f7;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.read-btn:hover {
+    background: #9333ea;
+}
+
+
+/* TRANG CHAPTER */
+
+.chapter-content {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.chapter-content img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background: #d8b4fe;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
